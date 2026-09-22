@@ -22,7 +22,7 @@ The problem is formulated as a **binary classification task**:
 * Analyze feature importance
 * Evaluate the model's prediction performance
 
-## 🛠️ Technologies & Libraries
+##  Technologies & Libraries
 
 * Python
 * Pandas – Data manipulation and preprocessing
@@ -31,7 +31,7 @@ The problem is formulated as a **binary classification task**:
 * Scikit-learn – Machine learning and model evaluation
 * Jupyter Notebook / Google Colab
 
-## 🔄 Machine Learning Workflow
+##  Machine Learning Workflow
 
 Raw Weather Data
        ↓
@@ -104,13 +104,13 @@ Visualizations include:
 
 ### Random Forest Classifier
 
-A **Random Forest Classifier** is used to predict whether rainfall will occur on the following day.
+A 'Random Forest Classifier' is used to predict whether rainfall will occur on the following day.
 
 Random Forest is an ensemble learning algorithm that combines multiple decision trees to improve predictive performance and reduce overfitting compared with a single decision tree.
 
 The model is trained using historical weather observations and evaluated on unseen data.
 
-## 📏 Model Evaluation
+## Model Evaluation
 
 The model can be evaluated using classification metrics such as:
 
@@ -122,54 +122,6 @@ The model can be evaluated using classification metrics such as:
 
 These metrics help evaluate how effectively the model identifies rainfall and non-rainfall days.
 
-> **Note:** Refer to the notebook for the actual model performance and evaluation results.
-
-## 📂 Project Structure
-
-rainfall-prediction-australia/
-│
-├── Rainfall_Prediction_Project.ipynb
-├── README.md
-└── requirements.txt
-
-##  How to Run
-
-### 1. Clone the repository
-
-
-git clone https://github.com/YOUR_USERNAME/rainfall-prediction-australia.git
-
-
-## 2. Navigate to the project directory
-
-cd rainfall-prediction-australia
-
-
-### 3. Install the required libraries
-
-
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
-
-Or, if 'requirements.txt' is provided:
-
-
-pip install -r requirements.txt
-
-
-## 4. Open the notebook
-
-
-jupyter notebook
-
-
-Then open:
-
-
-Rainfall_Prediction_Project.ipynb
-
-
-You can also run the notebook using **Google Colab**.
 
 ## 💡 Key Skills Demonstrated
 
